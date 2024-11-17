@@ -45,6 +45,7 @@ The **Song Playlist App** is a desktop application built using Java. It demonstr
 
 ## Project Structure
 
+```plaintext
 SongPlaylistApp/
 ├── src/
 │   ├── Song.java            # Song entity class
