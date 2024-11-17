@@ -46,3 +46,90 @@ The **Song Playlist App** is a desktop application built using Java. It demonstr
 
 ## Project Structure
 
+SongPlaylistApp/
+├── src/
+│   ├── Song.java            # Song entity class
+│   ├── Playlist.java        # Playlist management class
+│   ├── FileManager.java     # File handling operations
+│   ├── SongPlaylistApp.java # Main GUI and app logic
+│   ├── Main.java            # Entry point (optional)
+├── playlists/
+│   └── (Saved playlist files)
+├── resources/
+│   └── (Sample songs or icons)
+├── README.md                # Project documentation
+
+## Installation and Setup
+
+### Open the Project in Your IDE:
+- Import the folder into IntelliJ IDEA, Eclipse, or NetBeans.
+
+### Run the Application:
+1. Locate the `Main.java` or `SongPlaylistApp.java` file.
+2. Run the file to launch the app.
+
+### Optional:
+- Add sample songs in the `resources` folder.
+- Saved playlists will be stored in the `playlists` folder.
+
+---
+
+## Usage
+
+1. Launch the application.
+2. Use the **Add Song** feature to add new songs to the library.
+3. Create playlists and organize songs into them.
+4. Save playlists to the disk for future use.
+5. Search or sort songs to locate specific tracks quickly.
+
+---
+
+## Modules Explained
+
+### 1. Song Class (`Song.java`)
+Defines the structure of a song with attributes like title, artist, album, and duration.
+
+#### Methods:
+- `getTitle()`, `setArtist()`, etc.
+- `toString()`: Returns a formatted string for display.
+
+### 2. Playlist Class (`Playlist.java`)
+Manages the collection of songs in a playlist.
+
+#### Methods:
+- `addSong(Song song)`: Add a song.
+- `removeSong(String title)`: Remove a song by title.
+- `sortByTitle()`: Sort songs alphabetically by title.
+
+### 3. FileManager Class (`FileManager.java`)
+Handles saving and loading playlists using Java's object serialization.
+
+#### Methods:
+- `savePlaylist(Playlist playlist, String filePath)`: Save a playlist.
+- `loadPlaylist(String filePath)`: Load a playlist from a file.
+
+### 4. Main GUI Class (`SongPlaylistApp.java`)
+Provides the graphical interface for user interaction.
+
+#### Features:
+- Uses Swing components like `JButton`, `JTextField`, and `JTable` for UI design.
+- Handles user actions such as adding songs, saving playlists, and more.
+
+---
+
+## Future Scope
+
+1. **Audio File Support:** Enable users to upload and play real music files.
+2. **Genre Filtering:** Add features to sort or filter songs by genre.
+3. **Multi-Platform:** Expand to mobile platforms using JavaFX.
+4. **Cloud Storage:** Allow saving playlists in the cloud for better accessibility.
+5. **Dark Mode:** Provide a dark mode for better UI/UX.
+
+---
+
+## Contact
+
+For queries or contributions:  
+**Your Name**  
+Email: your.email@example.com  
+GitHub: [Your GitHub Profile](https://github.com/your-username)
