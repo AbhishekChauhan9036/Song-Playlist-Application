@@ -12,8 +12,7 @@ A Java-based desktop application designed to manage and organize your music play
 5. [Installation and Setup](#installation-and-setup)
 6. [Usage](#usage)
 7. [Modules Explained](#modules-explained)
-8. [Screenshots](#screenshots)
-9. [Future Scope](#future-scope)
+8. [Future Scope](#future-scope)
 
 ---
 
@@ -130,6 +129,6 @@ Provides the graphical interface for user interaction.
 ## Contact
 
 For queries or contributions:  
-**Your Name**  
-Email: your.email@example.com  
-GitHub: [Your GitHub Profile](https://github.com/your-username)
+**Abhishek Chauhan**  
+Email: abhishekchauhan9036@gmail.com  
+GitHub: [Your GitHub Profile](https://github.com/AbhishekChauhan9036/)
